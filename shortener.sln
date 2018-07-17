@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shortener", "shortener\shortener.csproj", "{2DDEBEC7-FFF1-49BF-A776-DE57564BCDE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shortener.Functions.Tests", "Shortner.Functions.Tests\Shortener.Functions.Tests.csproj", "{A140F2E8-F9CF-4962-AB12-DAD37AD3F9A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shortener", "shortner.features\Shortener.csproj", "{CDCB1019-2CE8-4EAC-B18A-C9E1D4FEB24E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2DDEBEC7-FFF1-49BF-A776-DE57564BCDE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2DDEBEC7-FFF1-49BF-A776-DE57564BCDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2DDEBEC7-FFF1-49BF-A776-DE57564BCDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2DDEBEC7-FFF1-49BF-A776-DE57564BCDE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A140F2E8-F9CF-4962-AB12-DAD37AD3F9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A140F2E8-F9CF-4962-AB12-DAD37AD3F9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A140F2E8-F9CF-4962-AB12-DAD37AD3F9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A140F2E8-F9CF-4962-AB12-DAD37AD3F9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCB1019-2CE8-4EAC-B18A-C9E1D4FEB24E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCB1019-2CE8-4EAC-B18A-C9E1D4FEB24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCB1019-2CE8-4EAC-B18A-C9E1D4FEB24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCB1019-2CE8-4EAC-B18A-C9E1D4FEB24E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
